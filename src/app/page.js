@@ -62,9 +62,9 @@ export default function Home() {
 
  return (
   <>
-  <h3 class= "MuestraResultado">{num}</h3>
+  
   <section class="botones" >
-   
+  <h3 class= "MuestraResultado">{num}</h3> 
 
     <div>
       <button onClick={PonerNumero} value={7}>7</button>
@@ -89,15 +89,15 @@ export default function Home() {
     </div>  
   </section>
 
-  <section class="BotonesOperaciones">
-    <div>
-      <button onClick={limpiar}>AC</button>
-      <button onClick={porcentaje}>%</button>
-      <button onClick={operaciones} value="+">+</button>
-      <button onClick={operaciones} value="-">-</button>
-      <button onClick={operaciones} value="/">/</button>
-      <button onClick={operaciones} value="x">x</button>
-      <button onClick={calcular}>=</button>
+  <section >
+    <div class="BotonesOperaciones">
+      <button class="colorBotonOp" onClick={limpiar}>AC</button>
+      <button class="colorBotonOp" onClick={porcentaje}>%</button>
+      <button class="colorBotonOp" onClick={operaciones} value="+">+</button>
+      <button class="colorBotonOp" onClick={operaciones} value="-">-</button>
+      <button class="colorBotonOp" onClick={operaciones} value="/">/</button>
+      <button class="colorBotonOp" onClick={operaciones} value="x">x</button>
+      <button class="colorBotonOp" onClick={calcular}>=</button>
 
     </div>
 

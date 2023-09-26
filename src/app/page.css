@@ -1,0 +1,44 @@
+h3{
+    background-color: rgb(80, 93, 105);
+    padding: 30px ;
+    margin: 10px;
+    font-size: 2em;
+    
+}
+
+
+.botones {
+    background-color: rgb(14, 14, 57);
+    position: static;
+    max-width: 450px;
+    height: 750px;
+    padding: 60px;
+    
+}
+
+.BotonesOperaciones {
+    background-color: rgb(14, 14, 57);
+    position: relative;
+    bottom: 570px;
+    left: 294px;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+
+   
+}
+
+
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.colorBotonOp {
+    background-color: rgb(179, 94, 15);
+}
+
